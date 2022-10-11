@@ -1,0 +1,7 @@
+onClipEvent(enterFrame){
+this._visible = false;
+if(_root.char.hitTest(this)){
+_root.char._x =
+_root.char._y =
+}
+}
