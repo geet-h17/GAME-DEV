@@ -1,0 +1,6 @@
+onClipEvent(enterFrame) {
+this._rotation += 2;
+if(_root.char.hitTest(this)) {
+_root.vcam.hp.nextFrame();
+}
+}
